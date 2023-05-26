@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+
+
+body {
+    text-align: center;
+    font-family: ubuntu, monospace;
+    font-weight: 400;
+    text-align: center;
+}
+
+ol{
+text-align: center;
+}
+
+hr{width: 40%;
+}
+
+button {
+    height: 40px;
+    width: 120px;
+    cursor:pointer ;
+    background-color: aquamarine;
+    border-radius:  50px;
+    border-style: none;
+}
+
+table, th, td {
+    margin: auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px 20px;
+}
+
+th {
+    background-color: darkcyan;
+    color: white;
+}
+tbody tr:nth-child(even) {
+    background-color: cyan;
+}
