@@ -30,11 +30,3 @@ table, th, td {
     border-collapse: collapse;
     padding: 10px 20px;
 }
-
-th {
-    background-color: darkcyan;
-    color: white;
-}
-tbody tr:nth-child(even) {
-    background-color: cyan;
-}
